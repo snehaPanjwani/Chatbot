@@ -1,0 +1,30 @@
+{
+    "intents": [
+      {
+        "tag": "booking",
+        "patterns": ["I want to book a ticket", "Can I reserve a spot?", "Help me book tickets", "I want to make a reservation"],
+        "responses": ["Sure, I can assist you with booking. Please provide the date and time you would like to visit."]
+      },
+      {
+        "tag": "timing",
+        "patterns": ["What are the museum hours?", "When does the museum open?", "Tell me the timing of the museum"],
+        "responses": ["The museum is open from 9 AM to 7 PM daily."]
+      },
+      {
+        "tag": "ticket_prices",
+        "patterns": ["How much are the tickets?", "Tell me the ticket prices", "What is the cost of a ticket?"],
+        "responses": ["The ticket prices are as follows: Adults: $20, Children: $10, Seniors: $15."]
+      },
+      {
+        "tag": "location",
+        "patterns": ["Where is the museum located?", "What is the address of the museum?", "Tell me the location"],
+        "responses": ["The museum is located at 123 Museum Avenue, Cityville."]
+      },
+      {
+        "tag": "fallback",
+        "patterns": ["", "Can you help me?", "I have a question", "Tell me something"],
+        "responses": ["I'm sorry, I didn't understand that. Could you please rephrase your query?"]
+      }
+    ]
+  }
+  
